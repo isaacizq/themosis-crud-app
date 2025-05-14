@@ -26,3 +26,11 @@ Este proyecto es una prueba técnica que implementa un formulario y un CRUD comp
 - ✔️ Validaciones en backend (y frontend opcional)
 - 🧑‍💼 Estructura MVC aplicada
 - 🎨 Estilos CSS aplicados con atención a detalles (opcional)
+
+## 🚀 Instalación
+
+1. Clona este repositorio:
+
+```bash
+git clone https://github.com/isaacizq/themosis-crud-app.git
+cd themosis-crud-app
