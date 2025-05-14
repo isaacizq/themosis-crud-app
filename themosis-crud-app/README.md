@@ -1,33 +1,30 @@
-Themosis framework
-==================
+# Prueba Técnica – Desarrollador/a Backend (Themosis)
 
-[![Build Status](https://travis-ci.org/themosis/themosis.svg?branch=dev)](https://travis-ci.org/themosis/themosis)
+Este proyecto es una prueba técnica que implementa un formulario y un CRUD completo utilizando el framework **Themosis**, siguiendo el patrón **MVC**, con validaciones (incluyendo validación de RUT chileno) y acceso restringido al área administrativa para la gestión de registros.
 
-The Themosis framework is a tool aimed to WordPress developers of any levels. But the better WordPress and PHP knowledge you have the easier it is to work with.
+---
 
-Themosis framework is a tool to help you develop websites and web applications faster using [WordPress](https://wordpress.org). Using an elegant and simple code syntax, Themosis framework helps you structure and organize your code and allows you to better manage and scale your WordPress websites and applications.
+## 📌 Requisitos técnicos
 
-Installation
-------------
-Please see the [installation section](https://framework.themosis.com/docs/master/installation/) of the Themosis documentation.
+- PHP >= 7.4
+- Composer
+- Node.js y npm (opcional, para scripts frontend)
+- MySQL/MariaDB
+- Laravel Valet (para desarrollo local) o GitHub Codespaces
 
-Development team
-----------------
-The framework was created by [Julien Lambé](https://www.themosis.com/), who continues to lead the development.
+---
 
-Contributing
-------------
-Any help is appreciated. The project is open-source and we encourage you to participate. You can contribute to the project in multiple ways by:
+## 🧱 Características
 
-- Reporting a bug issue
-- Suggesting features
-- Sending a pull request with code fix or feature
-- Following the project on [GitHub](https://github.com/themosis)
-- Following us on Twitter: [@Themosis](https://twitter.com/Themosis)
-- Sharing the project around your community
+- 📄 Formulario con los siguientes campos:
+  - Nombre
+  - Apellido
+  - RUT (validado)
+  - Fecha de nacimiento
+- 🔁 CRUD completo: crear, leer, editar y eliminar registros
+- 🔒 Acceso restringido: solo administradores autenticados pueden ver y gestionar los datos
+- ✔️ Validaciones en backend (y frontend opcional)
+- 🧑‍💼 Estructura MVC aplicada
+- 🎨 Estilos CSS aplicados con atención a detalles (opcional)
 
-For details about contributing to the framework, please check the [contribution guide](https://framework.themosis.com/docs/master/contributing).
-
-License
--------
-The Themosis framework is open-source software licensed under [GPL-2+ license](http://www.gnu.org/licenses/gpl-2.0.html).
+---
